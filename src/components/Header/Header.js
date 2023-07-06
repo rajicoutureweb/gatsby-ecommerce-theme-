@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Copyright © AMD Creationn ';
+  const bannerMessage = 'Copyright © AMD Creation ';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
