@@ -82,3 +82,12 @@
         padding: 0px 32px;
     }
 }
+
+.Hero-module--title--b7d95{
+
+ text-shadow: 6px 8px 8px black;
+    /* text-shadow: 1px 1px 2px black; */
+    TEXT-TRANSFORM: uppercase;
+    FONT-SIZE: 47PX;
+    FONT-FAMILY: revert;
+}
