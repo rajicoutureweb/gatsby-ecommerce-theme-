@@ -20,7 +20,7 @@ const Hero = (props) => {
     <div className={styles.root} style={{ backgroundImage: `url(${image})` }}>
       <div className={styles.content} style={{ maxWidth: maxWidth }}>
         {header && <span className={styles.header}>{header}</span>}
-        {title && <h2 className={styles.title}>{title}</h2>}
+        {title && <h2 className={styles.title} style="   text-shadow: 6px 8px 8px black;    TEXT-TRANSFORM: uppercase;  FONT-SIZE: 47PX;    FONT-FAMILY: revert;">{title}</h2>}
         {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
         {ctaText && (
           <Button
