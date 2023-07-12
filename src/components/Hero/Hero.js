@@ -20,8 +20,8 @@ const Hero = (props) => {
     <div className={styles.root} style={{ backgroundImage: `url(${image})` }}>
       <div className={styles.content} style={{ maxWidth: maxWidth }}>
         {header && <span className={styles.header}>{header}</span>}
-            {title && <h2 className={styles.title} m80mm>{title}</h2>}
-         {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
+           <div className={styles.rectangulus}> {title && <h2 className={styles.title} m80mm>{title}</h2>}
+         {subtitle && <span className={styles.subtitle}>{subtitle}</span></div>}
         {ctaText && (
           <Button
             className={`${styles.ctaButton} ${ctaStyle}`}
