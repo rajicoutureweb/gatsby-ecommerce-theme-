@@ -22,8 +22,11 @@ const Hero = (props) => {
         {header && <span className={styles.header}>{header}</span>}
              <rectenglis>
           {title && <h2 className={styles.title} m80mm>{title}</h2>}
-         {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
            </rectenglis>
+<center>
+          
+         {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
+          </center>
         {ctaText && (
           <Button
             className={`${styles.ctaButton} ${ctaStyle}`}
