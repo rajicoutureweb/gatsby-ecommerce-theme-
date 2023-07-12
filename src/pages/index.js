@@ -28,7 +28,7 @@ const IndexPage = () => {
     <Layout disablePaddingBottom>
       {/* Hero Container */}
       <Hero
-        maxWidth={'500px'}
+        maxWidth={'516px'}
         image={'/banner1.png'}
         title={'Style marocain, pure élégance'}
         subtitle={'Découvrez la collection 2023'}
