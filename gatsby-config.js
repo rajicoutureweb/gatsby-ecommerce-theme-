@@ -27,7 +27,7 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: 'NomDeLaPolice',
+              family: 'Salima',
               variants: ['400', '700'] // Ajoutez les variantes souhaitées
             }
           ]
