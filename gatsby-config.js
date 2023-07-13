@@ -19,20 +19,3 @@ module.exports = {
     'gatsby-plugin-netlify',
   ],
 };
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-plugin-webfonts`,
-      options: {
-        fonts: {
-          google: [
-            {
-              family: 'Salima',
-              variants: ['400', '700'] // Ajoutez les variantes souhaitées
-            }
-          ]
-        }
-      }
-    }
-  ]
-};
