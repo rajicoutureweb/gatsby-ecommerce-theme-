@@ -4,6 +4,7 @@
   src: url('./fonts/Salima.ttf') format('truetype');
   /* Autres propriétés facultatives comme font-weight, font-style */
 }
+@import url('https://fonts.cdnfonts.com/css/league-spartan');
 .root {
     width: 100%;
     background-size: cover;
@@ -98,6 +99,7 @@
     FONT-FAMILY: revert;
 }
 rectenglis {
+  font-family: 'League Spartan', sans-serif;
     text-align: center;
     background-color: #8d5e49ba;
     padding: 5px;
